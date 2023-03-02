@@ -3,4 +3,4 @@
 
 
 my_string = '1519432165456482'
-print(my_string[5:len(my_string)-1:3])
+print(my_string[4:len(my_string)-1:3])
