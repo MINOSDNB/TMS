@@ -3,4 +3,4 @@
 
 
 my_list = [0, 1, 2, "one", "two", 123, 555]
-print(my_list[3], my_list[5], my_list[6])
+print(my_list[2], my_list[4], my_list[5])
