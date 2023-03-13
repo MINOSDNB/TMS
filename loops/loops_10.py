@@ -1,0 +1,33 @@
+
+from random import randint
+
+
+n = int(input('Enter number '))
+arr = []
+for i in range(n):
+    arr_1 = []
+    for j in range(n):
+        arr_1.append(randint(0, 9))
+    #print(arr_1)
+    arr.append(arr_1)
+print(arr)
+
+result_sum = 0
+for arr_i in arr:
+    print(arr_i)
+    for i in arr_i:
+        print(i)
+        result_sum += i
+print(result_sum)
+
+
+result_sum = 0
+for arr_i in arr:
+    print(arr_i)
+    for i in arr_i:
+        print(i)
+        if (i % 3) == 0:
+            result_sum += i
+print(result_sum)
+
+

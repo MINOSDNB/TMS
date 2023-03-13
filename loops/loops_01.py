@@ -1,2 +1,5 @@
 n = int(input('Сколько раз - '))
-print(n * 'I am a programmer ')
+while n > 0:
+    print('I am programmer')
+
+

@@ -4,7 +4,7 @@ while True:
     if number == 'stop':
         print('The end')
         break
-    result_sum += int(number)
+    number = int(number)
+    if (number % 5) != 0:
+        result_sum += int(number)
     print(f'result sum = {result_sum}')
-
-
