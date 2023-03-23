@@ -24,5 +24,5 @@ while True:
         print('result > attempt')
     elif attempt > result:
         print('result < attempt')
-    count += 1
+    count -= 1
 
