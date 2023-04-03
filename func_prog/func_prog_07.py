@@ -1,5 +1,7 @@
 # Дан список чисел.
 # Найти произведение всех чисел, которые кратны 3.
+
+
 from functools import reduce
 
 arr = [i for i in range(1, 10)]
